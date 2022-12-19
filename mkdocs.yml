@@ -1,0 +1,75 @@
+site_name: John Telford
+
+theme:
+
+  name: material
+
+  font: light 300
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.expand
+    - navigation.tracking
+
+  palette:
+
+    primary: teal
+    accent: indigo
+ 
+  features:
+    - navigation.tracking
+    - navigation.instant
+
+# page tree
+# nav:
+#   - Home: index.md
+#   - Overview: siteoverview.md
+
+#   - Teams:
+#     - teams.md
+#     - define.md
+#     - design.md
+
+#     - Team - Develop:
+#       - develop.md
+#       - website-development-stack.md
+
+#       - Development Tools:
+#         # - developmenttools.md
+#         - vscode.md
+
+#       - Programming:  
+#         - programming.md
+
+#       - workstations.md
+#       - material.md
+
+#   - Company:
+#     - About: company.md
+#     - Contact: contact.md
+
+#   - Materials for MkDocs:
+#     - creating site.md
+#     - diagrams.md
+
+markdown_extensions:
+  - admonition
+  
+  - pymdownx.details
+  
+  - pymdownx.extra
+  - attr_list
+  - md_in_html
+
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+copyright: Copyright &copy; 2022 John Telford
+
+
+site_url: https://localhost:8000
+
