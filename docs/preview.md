@@ -1,6 +1,6 @@
 ---
 slug: preview
-title: Private Website Preview
+title: Preview Private Website  
 ---
 
 As team members makes changes to their repository clone, they may deploy their local cloned website repository to a private [Preview](preview.md) Internet website for stakeholders to quickly view and give feedback.

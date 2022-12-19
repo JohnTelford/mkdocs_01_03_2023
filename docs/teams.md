@@ -3,11 +3,11 @@ title: Teams
 ---
 
 !!! Danger "Defects"
-	Teams slightest  defects or security issues during the project will require [Remediating](defect _remediation_cost.md) and increasing overall lifetime costs. Team members can lower remediation costs by frequently [Previewing](preview.md) their work so stake holder can give feedback
+	Teams slightest  defects or security issues during the project will require [Remediating](defect _remediation_cost.md) and increasing overall lifetime costs. Team members are encouraged to lower remediation costs by frequently [Previewing](preview.md) their work so stake holder may give feedback
 
 ### Team Overview
 
-Iterative website development teams Define, Design, Develop, Deploy and Maintenance teams are operational at the same time creating, testing 
+Iterative website development teams Define, Design, Develop, Deploy and Maintenance teams may be operational at the same time creating, testing, and helping Maintenance  
 
 <div style="text-align: center;">
 
