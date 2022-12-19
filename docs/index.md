@@ -3,8 +3,8 @@ title: Iterative Website Development
 ---
 
 !!! Version
-    Version: 0.1.1  
-    Dec 12, 2020
+    Version: 0.1.2  
+    Dec 19, 20
 
 ---
 
