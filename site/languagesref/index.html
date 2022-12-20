@@ -1,0 +1,506 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://localhost:8000/languagesref/">
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.1, mkdocs-material-8.5.10">
+    
+    
+      
+        <title>Development Languages - John Telford</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.472b142f.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.08040f6c.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#009485">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="indigo">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#website-development-stack" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="John Telford" class="md-header__button md-logo" aria-label="John Telford" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            John Telford
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Development Languages
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../team_section/" class="md-tabs__link">
+        Section
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="John Telford" class="md-nav__button md-logo" aria-label="John Telford" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    John Telford
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" type="checkbox" id="__nav_1" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../team_section/">Section</a>
+          
+            <label for="__nav_1">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Section" data-md-level="1">
+        <label class="md-nav__title" for="__nav_1">
+          <span class="md-nav__icon md-icon"></span>
+          Section
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../teams/" class="md-nav__link">
+        Teams
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../preview/" class="md-nav__link">
+        Preview
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  <h1>Development Languages</h1>
+
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Website development languages are used to create website material such as text and graphics, and for configuring and using website development tools such as, <a href="#vscode">VScode</a>, <a href="developmenttools/#git">Git</a>, <a href="developmenttools/#github">GitHub</a>, <a href="#docusaurus">Docusaurus</a>, and <a href="#cloudflare">Cloudflare</a>. These languages are nonhuman, abstract logical structures, and strict languages. The slightest errors or security issues during development will require remediation sometime during the life time of the website. Several development languages and tools detect errors. Developer created abstract logical structures, and user interface designs problems, may be mitigated by developers frequent deploying their work to private <a href="deploy#preview">Preview</a> Internet websites for team members viewing and feedback.</p>
+</div>
+<hr />
+<h2 id="website-development-stack">Website Development Stack<a class="headerlink" href="#website-development-stack" title="Permanent link">&para;</a></h2>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>The <em>Iterative Website Development Stack</em> illustrates how websites are developed and deployed to the Internet. It is web browser agnostic. What works for big screens, works for small screens. The key technologies are <a href="developmenttools#github">GitHub</a> and <a href="developmenttools#git">git</a>.</p>
+</div>
+<p>:::</p>
+<p><img alt="Developer Iterative Development Stack" height="50%" src="/img/websitedev.png" width="50%" /></p>
+<p>Team members use the Website Development Stack to develop and deploy websites to the Internet. </p>
+<p>There would be confusion and defects created if Team members were to directly make changes to the same project repository.  </p>
+<p>A solution to this problem is to have one central repository controlled by a gatekeeper. Each team member <a href="glossary#fork">forks</a> a copy to their GetHub account and makes a clone of it on their workstation.</p>
+<hr />
+<h2 id="github">GitHub<a class="headerlink" href="#github" title="Permanent link">&para;</a></h2>
+<p>The core of Iterative Development is the <a href="developmenttools/#github">GitHub</a> central project repository controlled by the project gatekeeper.</p>
+<p>GitHub is a Distributed Version Control Systems enabling multiple teams to work separately without having an impact on the work of others. GitHub manages an online web hosted central project repository containing all project files. It is a unified source of truth. It helps teams collaborate and maintain the entire history of project file changes.</p>
+<blockquote>
+<p>It helps answer the questions for the lifetime of the project <em>who changed what, where, when, and why?</em> </p>
+</blockquote>
+<p>Team members use the <a href="#website-development-stack">Website Development Stack</a> to develop and deploy websites to the Internet.</p>
+<h3 id="the-github-flow">The GitHub Flow<a class="headerlink" href="#the-github-flow" title="Permanent link">&para;</a></h3>
+<p>GitHub workflow centered on <a href="#pull-request">Pull Requests</a>. The GitHub flow works with collaborating tightly-knit team in a central project repository, or a globally distributed company or network of strangers contributing to a project through dozens of <a href="#fork">Forks</a>. It is centered on the topic <a href="#branch">Branches</a> workflow.</p>
+<p>A summary of GitHub flow for each <strong>team member</strong> is:</p>
+<ol>
+<li><a href="#fork">Fork</a> the central project repository to create local project repository in GitHub account</li>
+<li>Clone the forked local project repository in team member GitHub account to a workstation</li>
+<li>Creates a topic <a href="#branch">branch</a> off the cloned local project repository main branch</li>
+<li>Make edits and commits </li>
+<li>Push after each commit to the cloned local project repository in GitHub account</li>
+<li>Deploy local project repository to a private <a href="deploy#preview">Preview</a> website for stake holders viewing</li>
+<li>Open a <a href="#pull-request">Pull Request</a> on the GitHub local project repository to begin the  process of integrating the local project repository with the central project repository  </li>
+<li>Team members discuss, and optionally continue committing on <a href="#pull-request">Pull Requests</a>.</li>
+</ol>
+<p>The project gatekeeper merges or closes the Pull Requests to the central project repository, and deploys the central project repository to a private<a href="deploy#preview">Preview</a> website for stack holders viewing. The teams and gatekeeper continues the GitHub Flow process until stack holders agree the central project repository is ready for release to the public internet </p>
+<p>Teams may <a href="#pull">Pull</a> the central project repository at anytime to view and test other topic branches.</p>
+<h2 id="git">Git<a class="headerlink" href="#git" title="Permanent link">&para;</a></h2>
+<p><a href="developmenttools/#git">Git</a></p>
+<h2 id="basic-git-commands">Basic Git Commands<a class="headerlink" href="#basic-git-commands" title="Permanent link">&para;</a></h2>
+<h3 id="branch">Branch<a class="headerlink" href="#branch" title="Permanent link">&para;</a></h3>
+<p>Creating a branch is to safely diverge from a line of development and continuing on another. An example is creating a branch to test a radical idea</p>
+<h3 id="fork">Fork<a class="headerlink" href="#fork" title="Permanent link">&para;</a></h3>
+<p>A <em>fork</em> is copying the central website project repository to a team member GitHub accounts. Teams make changes to the website project repository publicly as a way to contribute in a more open manner.</p>
+<p>A <em>fork</em> is a copy of the project repository in a team member's GitHub account. Forks let teams make changes to a project without affecting the original repository or other team members. Teams can fetch updates from the project repository with a <a href="#pull">pull</a> command from or submit changes using the <a href="#pull-request">Pull Requests</a></p>
+<p><a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks">About Forks</a></p>
+<h3 id="pull">Pull<a class="headerlink" href="#pull" title="Permanent link">&para;</a></h3>
+<h3 id="pull-request">Pull Request<a class="headerlink" href="#pull-request" title="Permanent link">&para;</a></h3>
+<p>Pull requests let teams tell others about changes that have been pushed to a branch in their GitHub account forked project repository. Once a pull request is opened by the project team gatekeeper, teams can discuss and review the potential changes with collaborators and add follow-up commits before changes are merged into the website central project repository.</p>
+<p><a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests">About pull requests</a></p>
+<h3 id="push">Push<a class="headerlink" href="#push" title="Permanent link">&para;</a></h3>
+<p>:::tip</p>
+<p>The <a href="#vscode">VScode</a> development environment has these and other Git command built-in </p>
+<p>:::</p>
+<hr />
+<h2 id="website-development-languages">Website Development Languages<a class="headerlink" href="#website-development-languages" title="Permanent link">&para;</a></h2>
+<h3 id="troika">Troika<a class="headerlink" href="#troika" title="Permanent link">&para;</a></h3>
+<p>:::info
+Troika is a team of three web website programming languages that have become standard for creating website pages, <a href="#html">HTML</a>, <a href="#css">CSS</a>, and <a href="#javascript">JavaScript</a>.  They are interpreted by web browsers to render website pages.
+:::</p>
+<p>The job of website development frameworks such as <a href="#docusaurus">Docusaurus</a> is to compile the troika and non troika programming languages, such as React, JSX, and MDX into the standard troika languages for web browsers.</p>
+<h3 id="html">HTML<a class="headerlink" href="#html" title="Permanent link">&para;</a></h3>
+<p>Hypertext Markup Language</p>
+<p><img alt="HTML" src="/img/HTML5logo.png" /></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a> is used to create websites. It is the standard markup language for browser website pages. It defines the content and structure of website pages. HTML can be assisted by Cascading Style Sheets (<a href="#css">CSS</a>) to instruct browsers how elements are to be styled and rendered, and <a href="#javascript">JavaScript</a> is for user interactivity.</p>
+<h3 id="css">CSS<a class="headerlink" href="#css" title="Permanent link">&para;</a></h3>
+<p>CSS instructs browsers how elements are to be styled and rendered.</p>
+<p><img alt="CSS" src="/img/CSS3logo.png" /></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a> (Cascading Style Sheets) is a stylesheet language used to describe the presentation of a document written in <a href="#html">HTML</a></p>
+<h3 id="javascript">JavaScript<a class="headerlink" href="#javascript" title="Permanent link">&para;</a></h3>
+<blockquote>
+<p>Not to be confused with the <a href="https://www.java.com/en/download/help/whatis_java.html">Java</a> programming language.</p>
+</blockquote>
+<p><img alt="JavaScript" src="/img/JavaScript.png" /></p>
+<p><a href="#javascript">JavaScript</a> is used to make webpages interactive. It is the programming language of the web. It is the most popular website programming language choice for the million of programmers globally. It is a high-level language, flexible and expressive enough to write website applications. It has many advantages. It is dynamically typed, requires no compile step, and has a huge ecosystem that provides powerful frameworks, libraries, and other tools. JavaScript is one of the core technologies of website <a href="#troika">Troika</a> website programming. It enables interactive web pages and is an essential part of web applications. All contemporary web browsers have a dedicated JavaScript virtual machine built-inn to execute it.</p>
+<hr />
+<h2 id="web-component-era">Web Component Era<a class="headerlink" href="#web-component-era" title="Permanent link">&para;</a></h2>
+<p>:::info
+<em>Web Development Components For The Component Era.</em> Web Components are independent and reusable bits of code. They serve the same purpose as <a href="#javascript">JavaScript</a> functions, but work in isolation.</p>
+<p>:::</p>
+<p>Web components are a set of web platform APIs that enables creating new custom, reusable, encapsulated <a href="#html">HTML</a> tags to use in web pages and web apps.</p>
+<p>Based on existing web standards. They enable web developers to extend <a href="#html">HTML</a> with new elements with encapsulated styling and custom behavior.</p>
+<hr />
+<h3 id="react">React<a class="headerlink" href="#react" title="Permanent link">&para;</a></h3>
+<p><img alt="reactLogo" src="/img/reactLogo.png" /></p>
+<p><a href="https://reactjs.org/">React</a> is for building user interfaces (UIs). It is an open-source, front end, <a href="#javascript">JavaScript</a> library created by Facebook.</p>
+<p>React is a declarative, efficient, and flexible <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a> library. It enables creating complex UIs from small and isolated pieces of code called “components”.</p>
+<p>React code is made of entities called components. Components can be rendered to a particular element. A component is the core building block of a React application. Every component resides in the same space, but works independently from one another and merges all them in a parent component, which is the final UI of the application."</p>
+<hr />
+<h3 id="jsx">JSX<a class="headerlink" href="#jsx" title="Permanent link">&para;</a></h3>
+<p><img alt="jsxlogo" src="/img/jsxlogo.png" /></p>
+<p>The core development technology of <a href="#docusaurus">Docusaurus</a> and React is <a href="#javascript">JavaScript</a>. React has created JSX, a syntax extension to JavaScript. JSX is not part of the web programming languages <a href="#troika">Troika</a>. Browsers do not understand how to render JSX. React created a compiler to transform JSX code into standard JavaScript at build time.</p>
+<p>JSX (JavaScript XML), is a React syntax extension to the JavaScript language. It is similar to a template language, but it has full power of JavaScript. It is similar in appearance to <a href="#html">HTML</a>, JSX provides a way to structure component rendering using syntax familiar to many developers. React components are written using JSX.</p>
+<p>React embraces the fact that rendering logic is inherently coupled with other UI logic: how events are handled, how the state changes over time, and how the data is prepared for display.
+Instead of artificially separating technologies by putting markup and logic in separate files, React separates concerns with cohesive components that contain both.</p>
+<hr />
+<h3 id="mdx">MDX<a class="headerlink" href="#mdx" title="Permanent link">&para;</a></h3>
+<!--
+![mdxLogo](/img/mdxLogo.png)
+-->
+
+<p><img src="/img/mdxLogo.png" width="100" /></p>
+<p><a href="https://mdxjs.com/">MDX</a> is Markdown for the component era. It enables seamlessly writing <a href="#jsx">JSX</a> in Markdown documents. It is compiled to JSX components, It enables using Markdown’s terse syntax for writing website material, and JSX for components.</p>
+<p>Markdown is a faster way of creating and maintaining website material. It is a HTLM abstraction that is compiled to web standard <a href="#html">HTML</a></p>
+<p>John Gruber published the original Markdown Syntax Guide. Different flavors of Markdown have evolved since then.</p>
+<p>"Markdown is a better way to write HTML. It is compiled into HTML at deploy time. Markdown is a lightweight plaintext markup language used to add formatting elements to documents. Markdown is now one of the world’s popular markup languages. Using Markdown is different from using a WYSIWYG editor. In an application like Microsoft Word, you click buttons to format words and phrases, and the changes are visible immediately. Markdown is not like that. In a Markdown-formatted file. Markdown syntax is added to the text to indicate which words and phrases look different."</p>
+<p>Markdown has been characterized by an informal specification and a reference implementation for conversion to HTML. Over time, many Markdown implementations have appeared. They are driven by the need for additional features like tables, footnotes, definition lists, and HTML inside Markdown blocks. The behavior of additional features diverge from the reference implementation and informal specification, and have attracted attention. Not all flavors of Markdown are compatible or supported by all frameworks.</p>
+<p>I'm hesitant creating website material without using a version of Markdown. My preference is using MDX.</p>
+<p>❤️ Powerful: MDX blends markdown and JSX syntax to fit perfectly in React/JSX-based projects.</p>
+<blockquote>
+<p>💻 Everything is a component: Use existing components inside MDX file and import other MDX files as plain components.</p>
+<p>🔧 Customizable: Decide which component is rendered for each markdown element.</p>
+<p>📚 Markdown-based: The simplicity and elegance of markdown remains, JSX is interleaved when you want to.</p>
+<p>🔥 Blazingly blazing fast: MDX has no runtime, all compilation occurs during the build stage."</p>
+</blockquote>
+<hr />
+<h2 id="meta-open-source">Meta Open Source<a class="headerlink" href="#meta-open-source" title="Permanent link">&para;</a></h2>
+<p><a href="https://opensource.fb.com/">Meta Open Source</a></p>
+<p>This website is built with some Meta Open Source software components. </p>
+<h3 id="docusaurus">Docusaurus<a class="headerlink" href="#docusaurus" title="Permanent link">&para;</a></h3>
+<p><a href="https://docusaurus.io/">Docusaurus</a> 
+generator. It is an open-source website framework created and open-sourced by <a href="#meta-open-source">Meta Open Source</a>. It builds a single-page application with a fast client-side navigation, leveraging React to make websites interactive.</p>
+<p>Learn more</p>
+<ul>
+<li>
+<p><a href="https://opensource.fb.com/projects/docusaurus">Docusaurus Project Details</a></p>
+</li>
+<li>
+<p><a href="https://docusaurus.io/docs#features">Features</a></p>
+</li>
+<li>Features this author likes about Docusaurus are:<ul>
+<li>Powered by <a href="#react">React</a>,<a href="#jsx">JSX</a> and <a href="#mdx">MDX</a></li>
+<li>Extend and customize with React</li>
+<li>Hot web browser reloading with fast incremental build on edit changes</li>
+<li>Route-based code and data splitting</li>
+<li>Heading anchor links</li>
+<li>Check all links during build process</li>
+<li>Check for errors by building deployment website on local server, using the same process as the deployment server</li>
+<li>Local Search - Small and is downloaded to browsers </li>
+<li>Menus<ul>
+<li>Leftside - menu bar</li>
+<li>Blog left side - posts</li>
+<li>Rightside - page / post table of contents</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr />
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2022 John Telford
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tracking", "navigation.instant", "navigation.indexes", "toc.integrate", "navigation.tabs"], "search": "../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d6c3db9e.min.js"></script>
+      
+    
+  </body>
+</html>

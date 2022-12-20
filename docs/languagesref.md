@@ -1,22 +1,19 @@
 ---
-id: languagesref
 title: Development Languages
 ---
 
 
-:::info
+!!! info
 
-Website development languages are used to create website material such as text and graphics, and for configuring and using website development tools such as, [VScode](#vscode), [Git](developmenttools/#git), [GitHub](developmenttools/#github), [Docusaurus](#docusaurus), and [Cloudflare](#cloudflare). These languages are nonhuman, abstract logical structures, and strict languages. The slightest errors or security issues during development will require remediation sometime during the life time of the website. Several development languages and tools detect errors. Developer created abstract logical structures, and user interface designs problems, may be mitigated by developers frequent deploying their work to private [Preview](deploy#preview) Internet websites for team members viewing and feedback.
-
-:::
+	Website development languages are used to create website material such as text and graphics, and for configuring and using website development tools such as, [VScode](#vscode), [Git](developmenttools/#git), [GitHub](developmenttools/#github), [Docusaurus](#docusaurus), and [Cloudflare](#cloudflare). These languages are nonhuman, abstract logical structures, and strict languages. The slightest errors or security issues during development will require remediation sometime during the life time of the website. Several development languages and tools detect errors. Developer created abstract logical structures, and user interface designs problems, may be mitigated by developers frequent deploying their work to private [Preview](deploy#preview) Internet websites for team members viewing and feedback.
 
 ---
 
 ## Website Development Stack
 
-:::info
+!!! info
 
-The *Iterative Website Development Stack* illustrates how websites are developed and deployed to the Internet. It is web browser agnostic. What works for big screens, works for small screens. The key technologies are [GitHub](developmenttools#github) and [git](developmenttools#git).
+	The *Iterative Website Development Stack* illustrates how websites are developed and deployed to the Internet. It is web browser agnostic. What works for big screens, works for small screens. The key technologies are [GitHub](developmenttools#github) and [git](developmenttools#git).
 
 :::
 

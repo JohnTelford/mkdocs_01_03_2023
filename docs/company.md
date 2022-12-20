@@ -1,14 +1,11 @@
 ---
-slug: company
 title: Company
-authors: jmt
-tags: [About, JohnTelford.com, LLC]
 ---
 
 
 # Company
 
-> I am the sole proprietor of *JohnTelford.com LLC* technology consulting company, working with client  development projects for more that 30 years.
+I am the sole proprietor of JohnTelford.com LLC technology consulting company, working with client  development projects for more that 30 years.
 
 ---
 
@@ -23,6 +20,22 @@ A seasoned, knowledgeable, industry professional, Electronics, Software, and Web
   - Functional groups
   - Individual contributors
   - Vendors
+
+## Contact
+
+!!! info
+  - A labyrinth symbolizes possible difficulties reaching website project goals. 
+  - My knowledge and experience with website technology disciplines may be helpful.
+:::
+
+![Mug Shot](/img/mugShot.png)
+
+John Telford  
+Portland, Oregon  
+JohnTelford.com LLC
+
+phone : text 503-312-7248
+<p><a href="mailto:john.telford@proton.me">Email</a></p>
 
 ---
 

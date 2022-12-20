@@ -1,11 +1,10 @@
 ---
 title: Iterative Website Development
 ---
-
-!!! Version
+<p>
     Version: 0.1.2  
-    Dec 19, 20
-
+    Dec 19, 2020
+</p>
 ---
 
 
@@ -23,7 +22,7 @@ Go Deeper - [Teams](teams.md)
 
 Creating and maintaining websites that meet users needs are difficult, complex, and time consuming.
 
-The [Website Development Stack](website-dev-stack.md)
+The [Website Development Stack](website_dev_stack.md)
 
 !!! Danger "Defects"
 	The slightest defects or security issues during the project will require [Remediating](defect _remediation_cost.md) and increasing overall lifetime costs 
