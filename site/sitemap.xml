@@ -86,6 +86,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://localhost:8000/team_maintenance/</loc>
+         <lastmod>2022-12-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://localhost:8000/teams/</loc>
          <lastmod>2022-12-20</lastmod>
          <changefreq>daily</changefreq>
@@ -106,7 +111,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://localhost:8000/team_section/</loc>
+         <loc>https://localhost:8000/znotes/</loc>
          <lastmod>2022-12-20</lastmod>
          <changefreq>daily</changefreq>
     </url>

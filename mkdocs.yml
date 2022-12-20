@@ -22,7 +22,7 @@ theme:
     - navigation.tracking
     - navigation.instant
     # - navigation.indexes
-    # - toc.integrate
+    - toc.follow
     # - navigation.tabs
 
 # nav tree
@@ -30,14 +30,16 @@ nav:
 #   - Home: index.md
 #   - Overview: siteoverview.md
 
-  # - Section:
-  #   - team_section/index.md
-  #   - Teams: teams.md
-  #   - Preview: preview.md
+  - Project Teams:
+    - Teams Overview: teams.md
+    - Define Team: team_define.md
+    - Design Team: team_design.md
 
-#     - Team - Develop:
-#       - develop.md
-#       - website-development-stack.md
+  - Team Develop:
+    - Website Development: team_develop.md
+    - Website Development Stack: website_dev_stack.md
+    - Programming: programming.md
+    - Workstations: workstations.md
 
 #       - Development Tools:
 #         # - developmenttools.md

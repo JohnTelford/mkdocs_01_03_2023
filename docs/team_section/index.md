@@ -1,2 +1,0 @@
-teams.md
-preview.md

@@ -26,7 +26,6 @@ A seasoned, knowledgeable, industry professional, Electronics, Software, and Web
 !!! info
   - A labyrinth symbolizes possible difficulties reaching website project goals. 
   - My knowledge and experience with website technology disciplines may be helpful.
-:::
 
 ![Mug Shot](/img/mugShot.png)
 
