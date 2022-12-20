@@ -21,19 +21,19 @@ theme:
   features:
     - navigation.tracking
     - navigation.instant
-    - navigation.indexes
-    - toc.integrate
-    - navigation.tabs
+    # - navigation.indexes
+    # - toc.integrate
+    # - navigation.tabs
 
 # nav tree
 nav:
 #   - Home: index.md
 #   - Overview: siteoverview.md
 
-  - Section:
-    - team_section/index.md
-    - Teams: teams.md
-    - Preview: preview.md
+  # - Section:
+  #   - team_section/index.md
+  #   - Teams: teams.md
+  #   - Preview: preview.md
 
 #     - Team - Develop:
 #       - develop.md

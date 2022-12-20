@@ -3,9 +3,9 @@ slug: workstations
 title: Workstations
 ---
 
-:::info
-Workstations are the key hardware for website developers 
-:::
+!!! info
+    Workstations are the key hardware for website developers 
+
 
 ## Overview
 
@@ -54,7 +54,7 @@ Operating systems updates have been free for years, and Apple continues to have 
 ![Linux](/img/LinuxLogo.jpeg)
 -->
 
-<img src="/img/LinuxLogo.jpeg" width="100" />
+<img src="/img/LinuxLogo.png" width="100" />
 
 [Linux](https://www.linux.org/) is an examples of free and open-source software collaboration. The source code may be used, modified and distributed commercially or non-commercially by anyone under the terms of its respective licenses
 
