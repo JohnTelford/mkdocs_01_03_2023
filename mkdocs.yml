@@ -11,6 +11,7 @@ theme:
     - navigation.tabs.sticky
     - navigation.expand
     - navigation.tracking
+    - toc.follow
 
   palette:
 
@@ -20,16 +21,19 @@ theme:
   features:
     - navigation.tracking
     - navigation.instant
+    - navigation.indexes
+    - toc.integrate
+    - navigation.tabs
 
-# page tree
-# nav:
+# nav tree
+nav:
 #   - Home: index.md
 #   - Overview: siteoverview.md
 
-#   - Teams:
-#     - teams.md
-#     - define.md
-#     - design.md
+  - Section:
+    - team_section/index.md
+    - Teams: teams.md
+    - Preview: preview.md
 
 #     - Team - Develop:
 #       - develop.md
@@ -61,6 +65,9 @@ markdown_extensions:
   - pymdownx.extra
   - attr_list
   - md_in_html
+
+  - toc:
+      permalink: true
 
   - pymdownx.superfences:
       custom_fences:
