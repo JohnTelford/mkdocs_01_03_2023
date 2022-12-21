@@ -41,6 +41,9 @@ nav:
     - Programming: programming.md
     - Workstations: workstations.md
 
+  - Site Notes:
+    - Materials for MkDocs: mat_.md
+
 #       - Development Tools:
 #         # - developmenttools.md
 #         - vscode.md
