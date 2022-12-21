@@ -18,7 +18,7 @@ The Hype Curve helps separate reality from fiction.
 </p>
 
     <p>
-    <img src="/img/hype-curve.png" align="middle">
+    <img src="/img/hype_curve.png" align="middle">
     </p>
 
     <br/>
@@ -60,6 +60,8 @@ The Hype Curve points of interest are:
 Here are some of my guesstimates of where a few technologies are on their Hype Curve roller coster ride
 
 Some have crashed and burned, while others are will speeding to the Peak of Inflated Expectations where some bubbles pop, while others are deflated and may make it to the Trough of Disillusionment. a few may have energy
+
+Every day there is more hype about most every technology. This is just a sampling
 
 ---
 

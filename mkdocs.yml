@@ -30,6 +30,9 @@ nav:
 #   - Home: index.md
 #   - Overview: siteoverview.md
 
+  - Home:
+    - Home Page: index.md
+
   - Project Teams:
     - Teams Overview: teams.md
     - Define Team: team_define.md
@@ -40,6 +43,10 @@ nav:
     - Website Development Stack: website_dev_stack.md
     - Programming: programming.md
     - Workstations: workstations.md
+
+  - Company:
+    - Information: company.md
+    - Contact: contact.md
 
   - Site Notes:
     - Materials for MkDocs: mat_mkdocs.md
