@@ -10,7 +10,7 @@ title: Iterative Website Development
 
 !!! Abstract
 
-    Iterative website development enables the Define, Design, Develop, Deploy and Maintenance teams to be operational at the same time creating, testing and on [Remediating Website Defects](defect _remediation_cost.md)​, during the lifetime of the website
+    Iterative website development enables the Define, Design, Develop, Deploy and Maintenance teams to be operational at the same time creating, testing and on [Remediating Website Defects](defect_remediation_cost.md)​, during the lifetime of the website
 
 ### Teams
 
@@ -25,7 +25,7 @@ Creating and maintaining websites that meet users needs are difficult, complex, 
 The [Website Development Stack](website_dev_stack.md)
 
 !!! Danger "Defects"
-	The slightest defects or security issues during the project will require [Remediating](defect _remediation_cost.md) and increasing overall lifetime costs 
+	The slightest defects or security issues during the project will require [Remediating](defect_remediation_cost.md) and increasing overall lifetime costs 
 
 
 ### The Big Picture

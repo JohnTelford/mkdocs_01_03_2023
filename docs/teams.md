@@ -3,7 +3,7 @@ title: Teams
 ---
 
 !!! Danger "Defects"
-	Teams slightest  defects or security issues during the project will require [Remediating](defect _remediation_cost.md) and increasing overall lifetime costs. Team members are encouraged to lower remediation costs by frequently [Previewing](preview.md) their work so stake holder may give feedback
+	Teams slightest  defects or security issues during the project will require [Remediating](defect_remediation_cost.md) and increasing overall lifetime costs. Team members are encouraged to lower remediation costs by frequently [Previewing](preview.md) their work so stake holder may give feedback
 
 ### Team Overview
 

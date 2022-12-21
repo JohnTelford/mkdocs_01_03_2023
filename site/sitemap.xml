@@ -26,7 +26,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://localhost:8000/defect%20_remediation_cost/</loc>
+         <loc>https://localhost:8000/defect_remediation_cost/</loc>
          <lastmod>2022-12-21</lastmod>
          <changefreq>daily</changefreq>
     </url>

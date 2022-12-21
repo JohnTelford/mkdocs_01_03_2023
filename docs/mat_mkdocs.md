@@ -21,8 +21,13 @@ title: Materials for MkDocs
 
 - pip show mkdocs-material
 - pip install --upgrade mkdocs-material
-- Add variable: ZOLA_VERSION: 0.13.0??
+
+#### Files
+
+- root directory
+
 - requirements.txt
-  - mkdocs-material==8.5.11
+    - mdocs-material==8.5.11
+
 - runtime.txt
-  - 3.7
+    - 3.7
