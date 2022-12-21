@@ -16,3 +16,13 @@ title: Materials for MkDocs
 ### Alternatives
 
 [Alternatives](https://squidfunk.github.io/mkdocs-material/alternatives/#alternatives)
+
+### Cloudflare
+
+- pip show mkdocs-material
+- pip install --upgrade mkdocs-material
+- Add variable: ZOLA_VERSION: 0.13.0??
+- requirements.txt
+  - mkdocs-material==8.5.11
+- runtime.txt
+  - 3.7

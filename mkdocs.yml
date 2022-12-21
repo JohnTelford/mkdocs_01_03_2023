@@ -42,7 +42,7 @@ nav:
     - Workstations: workstations.md
 
   - Site Notes:
-    - Materials for MkDocs: mat_.md
+    - Materials for MkDocs: mat_mkdocs.md
 
 #       - Development Tools:
 #         # - developmenttools.md

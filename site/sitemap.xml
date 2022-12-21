@@ -56,6 +56,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://localhost:8000/mat_mkdocs/</loc>
+         <lastmod>2022-12-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://localhost:8000/material/</loc>
          <lastmod>2022-12-21</lastmod>
          <changefreq>daily</changefreq>
@@ -117,11 +122,6 @@
     </url>
     <url>
          <loc>https://localhost:8000/workstations/</loc>
-         <lastmod>2022-12-21</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://localhost:8000/znotes/</loc>
          <lastmod>2022-12-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
