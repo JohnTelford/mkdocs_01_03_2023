@@ -1,57 +1,8 @@
 ---
-title: Hype Curve
+title: Hype Guesstimates
 ---
 
-# Hype Curve
-
----
-
-<div style="text-align: center;">
-<p>
-The Hype Curve helps separate reality from fiction.
-</p>
-
-    <p>
-    <img src="/img/hype_curve.png" align="middle">
-    </p>
-
-    <br/>
-    <b>Hype Curve</b>
-
-</div>
-
-
----
-
-## Points of Interest
-
-The Hype Curve points of interest are:
-
-- Technology Trigger
-
-    A potential technology breakthrough happens.
-
-- Peak of Inflated Expectations  
-
-    Early publicity produces a number of success stories and often accompanied by stories of failures. Some companies may take corrective action but most don’t.
-
-- Trough of Disillusionment
-
-    Interest wanes as experiments and implementations fail to deliver on the hype.
-
-- Slope of Enlightenment
-  
-    Technology consumers begin to understand the technology better and how it may benefit them.
-
-- Plateau of Productivity
-  
-    Mainstream adoption starts to take off. Some technologies making it to the Plateau of Productivity may be doomed to the spiral of death by inattention to details of keeping products alive.
-
----
-
-## Some Hype Curve Guesstimates
-
-Here are some of my guesstimates of where a few technologies are on their Hype Curve roller coster ride
+Here are some of my Hype Curve guesstimates of where a few technologies are on their Hype Curve roller coster ride
 
 Some have crashed and burned, while others are will speeding to the Peak of Inflated Expectations where bubbles pop, while others are deflated and may make it to the Trough of Disillusionment. a few may have energy
 

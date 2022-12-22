@@ -48,6 +48,10 @@ nav:
     - Information: company.md
     - Contact: contact.md
 
+  - Hype:
+    - Hype Curve: hype_curve.md
+    - Hype Guesstimates: hype_guesstimates.md
+
   - Site Notes:
     - Materials for MkDocs: mat_mkdocs.md
 

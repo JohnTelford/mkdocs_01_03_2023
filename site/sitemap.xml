@@ -31,6 +31,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://localhost:8000/defect%20_remediation_cost/</loc>
+         <lastmod>2022-12-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://localhost:8000/defect_remediation_cost/</loc>
          <lastmod>2022-12-21</lastmod>
          <changefreq>daily</changefreq>
@@ -47,6 +52,11 @@
     </url>
     <url>
          <loc>https://localhost:8000/hype_curve/</loc>
+         <lastmod>2022-12-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://localhost:8000/hype_guesstimates/</loc>
          <lastmod>2022-12-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -127,6 +137,11 @@
     </url>
     <url>
          <loc>https://localhost:8000/workstations/</loc>
+         <lastmod>2022-12-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://localhost:8000/znotes/</loc>
          <lastmod>2022-12-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
