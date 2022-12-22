@@ -2,8 +2,8 @@
 title: Iterative Website Development
 ---
 
-Version: 0.1.3  
-Dec 21, 2022
+Version: 0.1.4  
+Dec 22, 2022
 
 ---
 
@@ -12,9 +12,13 @@ Dec 21, 2022
 
 Iterative website development enables the Define, Design, Develop, Deploy and Maintenance teams to be operational at the same time creating, testing and on [Remediating Website Defects](defect_remediation_cost.md)​, during the lifetime of the website
 
-Iterative website development is based on team-work that defines, designs, develops, deploys, and maintains the website project for its lifetime. All team members may operational at the same time.Each team member iterates their  contribution to the website by creating, testing and [Remediating Website Defects](defect_remediation_cost.md)
+- Iterative website development is based on team-work that defines, designs, develops, deploys, and maintains the website project for its lifetime. 
+  
+- All team members may be operational at the same time without interfering with each other, or the production website
+  
+- Each team member iterates their portion of the the website by creating, testing and [Remediating Website Defects](defect_remediation_cost.md)
 
-Each team member frequently deploys their work to a private [Preview](preview.md) internet website work for stakeholders to quickly view and give feedback 
+- Each team member frequently deploys their work to a private [Preview](preview.md) internet website for stakeholders to quickly view and give feedback 
 
 ### Teams
 
