@@ -2,8 +2,8 @@
 title: Iterative Website Development
 ---
 <p>
-    Version: 0.1.2  
-    Dec 19, 2020
+    Version: 0.1.3  
+    Dec 21, 2022
 </p>
 ---
 
