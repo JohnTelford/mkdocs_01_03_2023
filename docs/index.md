@@ -1,16 +1,20 @@
 ---
 title: Iterative Website Development
 ---
-<p>
-    Version: 0.1.3  
-    Dec 21, 2022
-</p>
+
+Version: 0.1.3  
+Dec 21, 2022
+
 ---
 
+!!! Goal
+    The goal of Iterative Website Development is to minimize website projects life time costs
 
-!!! Abstract
+Iterative website development enables the Define, Design, Develop, Deploy and Maintenance teams to be operational at the same time creating, testing and on [Remediating Website Defects](defect_remediation_cost.md)​, during the lifetime of the website
 
-    Iterative website development enables the Define, Design, Develop, Deploy and Maintenance teams to be operational at the same time creating, testing and on [Remediating Website Defects](defect_remediation_cost.md)​, during the lifetime of the website
+Iterative website development is based on team-work that defines, designs, develops, deploys, and maintains the website project for its lifetime. All team members may operational at the same time.Each team member iterates their  contribution to the website by creating, testing and [Remediating Website Defects](defect_remediation_cost.md)
+
+Each team member frequently deploys their work to a private [Preview](preview.md) internet website work for stakeholders to quickly view and give feedback 
 
 ### Teams
 
