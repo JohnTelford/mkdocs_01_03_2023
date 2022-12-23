@@ -61,31 +61,30 @@ flowchart TB
 <b>Iterative Website Development</b>
 <br/>
 
-Details will follow later
-
+Details follow
 </div>
 
 
 !!! Overview
 
-	The key *Iterative Development* technologies are [VScode](https://code.visualstudio.com/) for command and control, [MkDocs Marteral](https://squidfunk.github.io/mkdocs-material/) static site generator, [GitHub](git-github#github), [git](git-github#git), and a [Content Delivery Network (CDN)](https://en.wikipedia.org/wiki/Content_delivery_network) like [Cloudflare](https://www.cloudflare.com)
+	The key Iterative Development technologies are [VScode](https://code.visualstudio.com/) for command and control, [MkDocs Marteral](https://squidfunk.github.io/mkdocs-material/) static site generator, [GitHub](git-github#github), [git](git-github#git), and a [Content Delivery Network (CDN)](https://en.wikipedia.org/wiki/Content_delivery_network) like [Cloudflare](https://www.cloudflare.com)
 
-	- **Developers:**  
+  Developers 
 	
-    	- **Local Repository**:
+    	- Local Repository:
     	
 			Each team developer has their own Local Website Repository that is updated from the GitHub Central Repository, which updated with approved changes by by the Central Repository project gatekeeper only
 
-		- **VScode**  
+		- VScode  
   
         	- Developers use [VSCode](vscode.md) as their Web Development Stack Command and Control center, and project editor
 
-		- **MkDocs Material**  
+		- MkDocs Material  
   
     		- Is a Static Site Generator that uses the Local Website Repository to create a [Preview](preview.md) website for stakeholders  
             - Is also used by the CDN do build and deploy the website from the Central Repository
   
-  		-  **GitHub**
+  		-  GitHub
 	
           	- The core technologies of Iterative WebsiteDevelopment are Git, the GitHub central project repository controlled by the project gatekeeper,  using Local Website Repository, the content delivery network, like Cloudflare, to deploying private [Preview](preview.md) Internet websites, production websites, and .
       		
@@ -102,7 +101,7 @@ Details will follow later
 - GitHub  
     - Central Repository.  
 	
-    	- The core technologies of Iterative Development are Git, GitHub central project repository controlled by the project gatekeeper, and a content delivery network, like Cloudflare, deploying private Preview Internet websites, production websites, and individual team members private Preview websites.
+    	- The core technologies of Iterative Development are Git, GitHub, and the Central Website Repository controlled by the project gatekeeper, and a content delivery network, like Cloudflare, deploying private Preview Internet websites, production websites, and individual team members private Preview websites.
 		
 		- GitHub is a Distributed Version Control Systems enabling multiple teams to work separately on the same project without having an impact on the work of others. GitHub manages an online web hosted central project repository containing all project files. It is a unified source of truth. It helps teams collaborate and maintain the entire history of project file changes.
 

@@ -41,19 +41,20 @@ nav:
   - Team Develop:
     - Website Development: team_develop.md
     - Website Development Stack: website_dev_stack.md
+    - Development Tools: development_tools.md
     - Programming: programming.md
     - Workstations: workstations.md
 
   - Company:
     - Information: company.md
     - Contact: contact.md
+  - Site Notes:
+    - Glossary: glossary.md
+    - Materials for MkDocs: mat_mkdocs.md
 
   - Hype:
     - Hype Curve: hype_curve.md
     - Hype Guesstimates: hype_guesstimates.md
-
-  - Site Notes:
-    - Materials for MkDocs: mat_mkdocs.md
 
 #       - Development Tools:
 #         # - developmenttools.md
