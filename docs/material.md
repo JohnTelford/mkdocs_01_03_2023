@@ -35,7 +35,7 @@ Sometimes in the heat of development or defect remediation, changes are made to 
 
 ![ChronoSync](/img/CSLogo300.png)
 
-> " [ChronoSync](https://www.econtechnologies.com/chronosync/overview.html) is a comprehensive toolkit for performing file synchronization "
+> [ChronoSync](https://www.econtechnologies.com/chronosync/overview.html) is a comprehensive toolkit for performing file synchronization 
 
 ChronoSync is used to keep iA Write and the local repository in sync.
 

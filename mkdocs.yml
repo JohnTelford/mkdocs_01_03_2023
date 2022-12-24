@@ -4,7 +4,6 @@ theme:
 
   name: material
 
-  font: light 300
   features:
     - navigation.instant
     - navigation.tabs
@@ -12,6 +11,7 @@ theme:
     - navigation.expand
     - navigation.tracking
     - toc.follow
+    - header.autoide
 
   palette:
 
@@ -27,28 +27,30 @@ theme:
 
 # nav tree
 nav:
-#   - Home: index.md
-#   - Overview: siteoverview.md
-
+#
   - Home:
     - Iterative website development: index.md
 
-  - Project Teams:
-    - Teams Overview: teams.md
+  - Teams:
+    - Teams Overview: team_overview.md
     - Define Team: team_define.md
     - Design Team: team_design.md
+    - Development Team:
+      - Website Development: team_develop.md
+      - Website Development Stack: website_dev_stack.md
+      - Development Tools: development_tools.md
+      - Programming: programming.md
+      - Workstations: workstations.md
+    - Deploy Team: team_deploy.md
+    - Maintenance Team: team_maintenance.md
 
-  - Team Develop:
-    - Website Development: team_develop.md
-    - Website Development Stack: website_dev_stack.md
-    - Development Tools: development_tools.md
-    - Programming: programming.md
-    - Workstations: workstations.md
 
   - Company:
     - Information: company.md
     - Contact: contact.md
+
   - Site Notes:
+    - Remediation: remediation.md
     - Glossary: glossary.md
     - Materials for MkDocs: mat_mkdocs.md
 

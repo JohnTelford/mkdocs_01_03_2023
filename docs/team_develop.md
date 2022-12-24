@@ -15,3 +15,4 @@ title: Team - Develop
 
 - Decisions about static site generator and programming tools
 		
+![remediation](remediation.md)

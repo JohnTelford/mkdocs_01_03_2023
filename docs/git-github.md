@@ -9,15 +9,16 @@ title: Git and Github
 The Iterative Development core technologies of are GitHub and Git: 
 
 ### GitHub
-> GitHub helps answer the questions "who changed what, where, when, and why?"  for the lifetime of the project
 
-- GitHub central project repository controlled by the project gatekeeper 
+GitHub helps answer the questions *Who Changed What, Where, When, and Why ?* for the lifetime of the project
+
+- The GitHub Website Repository is controlled by a team member project gatekeeper 
+
 - Content delivery network (CDN) like [Cloudflare](#deploy/cloudflare), deploying private [Preview](deploy#preview) Internet websites, production websites, and individual team members private [Preview](preview.md) websites.
 	
 
-
 ### Git 
-- Git is a Distributed Version Control Systems enabling multiple teams to work separately on the same project without having an impact on the work of others. GitHub manages an online web hosted central project repository containing all project files. It is a unified source of truth. It helps teams collaborate and maintain the entire history of project file changes.
+- [Git](http://localhost:8000/programming/developmenttools#git) is a Distributed Version Control Systems enabling multiple teams to work separately on the same project without having an impact on the work of others. GitHub manages an online web hosted central project repository containing all project files. It is a unified source of truth. It helps teams collaborate and maintain the entire history of project file changes.
 
 Team members use the [Website Development Stack](website_dev_stack.md) to develop and deploy websites to the Internet.
 

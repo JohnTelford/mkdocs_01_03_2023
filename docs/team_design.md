@@ -12,9 +12,7 @@ The core foundations of a user's website experience are:
 
 - Engaging - Keeps user coming back to a website
 
-- The slightest errors or security issues during design will require [[Defect Remediation Costs |remediating]]sometime during the life time of the website.
-
-#### Design - Prerequisites
+### Design - Prerequisites
 
 - Decisions about Website Design
 
@@ -61,5 +59,3 @@ The core foundations of a user's website experience are:
 	- Navigation
 	
 	- User interaction
-
-#
