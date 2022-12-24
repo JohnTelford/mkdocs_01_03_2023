@@ -2,7 +2,7 @@
 title: Team Overview
 ---
 
-Iterative website development teams Define, Design, Develop, Deploy and Maintenance teams may be operational at the same time creating, testing, and helping Maintenance  
+Iterative website Define, Design, Develop, Deploy and Maintenance teams may be operational at the same time creating, testing, and helping Maintenance  
 
 <div style="text-align: center;">
 <b>Teams</b>
