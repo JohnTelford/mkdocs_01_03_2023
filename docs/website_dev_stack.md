@@ -144,3 +144,5 @@ A solution to this problem is to have one central repository controlled by a tea
 
 ---
 
+!!! Danger "Defects"
+	The slightest configuration, programming or security defect issues during the project will require Remediating and increasing overall lifetime costs 

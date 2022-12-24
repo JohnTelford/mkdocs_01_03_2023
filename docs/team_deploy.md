@@ -15,4 +15,5 @@ title: Team - Deploy
 - Decisions about resources required for team developers working on features, fixes, or testing to deploy private Preview Internet websites with their changes, for stake holders to view and give feedback, without disturbing other developers work or the production version
 
 
-![Danger](/docs/img/DANGER.png)
+!!! Danger "Defects"
+	The slightest configuration, programming or security defect issues during the project will require Remediating and increasing overall lifetime costs 

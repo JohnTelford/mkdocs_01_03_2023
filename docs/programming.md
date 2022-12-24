@@ -90,3 +90,6 @@ Operating system (OS) command-line interfaces are usually distinct programs supp
 :::
 
 ---
+
+!!! Danger "Defects"
+	The slightest configuration, programming or security defect issues during the project will require Remediating and increasing overall lifetime costs 

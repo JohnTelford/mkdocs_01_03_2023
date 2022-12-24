@@ -13,6 +13,7 @@ title: Iterative Website Development
 
 - Each team member frequently deploys their work to a private [Preview](preview.md) internet website for stakeholders to quickly view and give feedback 
 
-![remediation](remediation.md)
+!!! Danger "Defects"
+	The slightest configuration, programming or security defect issues during the project will require Remediating and increasing overall lifetime costs 
 	
 

@@ -45,4 +45,5 @@ Reach a [Minimum Viable Product](minimum_viable_product.md) is the first Develop
 - [Team Maintenance](team_maintenance.md)  
   Remediates the Define, Design, Develop, Deploy, or Security teams defects
 
-![remediation](remediation.md)
+!!! Danger "Defects"
+	The slightest configuration, programming or security defect issues during the project will require Remediating and increasing overall lifetime costs 

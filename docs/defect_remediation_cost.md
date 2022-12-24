@@ -19,4 +19,5 @@ The early defect detection mechanisms built into Iterative Development and [MkDo
 
 - Team members deploy their copy of the project repository with their changes, to private websites where stakeholders can see them and give feedback. See Preview Deployments
  
-![remediation](remediation.md)
+!!! Danger "Defects"
+	The slightest configuration, programming or security defect issues during the project will require Remediating and increasing overall lifetime costs 

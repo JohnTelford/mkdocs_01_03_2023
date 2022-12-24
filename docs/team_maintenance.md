@@ -19,4 +19,5 @@ team: Team - Maintenance
 
 - Organizing members from other teams to be part of the Maintain team while remediating specific defects.
   
-![remediation](remediation.md)
+!!! Danger "Defects"
+	The slightest configuration, programming or security defect issues during the project will require Remediating and increasing overall lifetime costs 
