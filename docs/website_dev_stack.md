@@ -89,11 +89,11 @@ The core technologies of Iterative Development are Git, GitHub, and the Central 
 
 	GitHub is a Distributed Version Control Systems enabling multiple teams to work separately on the same project without having an impact on the work of others. GitHub manages an online web hosted Central Website Repository containing all project files. It is a unified source of truth. It helps teams collaborate and maintain the entire history of project file changes, and helps answer the questions **who changed what, where, when, and why** for the lifetime of the project
 
-	The Central Website Repository is managed by a team member project gatekeeper with help from other team members
+	The Central Websit Repository is managed by a team member project gatekeeper with help from other team members
 
 
-  
-  - Website" for stake holders. The same "MkDocs Static Site Generator" tools are used to create the "Production Website" by the "CDN - Deploy Website to Web"
+  - Stake Holders Private Preview Website
+  	The same "MkDocs Static Site Generator" tools are used to create the "Production Website" by the "CDN - Deploy Website to Web"
 
 
 - GitHub  
