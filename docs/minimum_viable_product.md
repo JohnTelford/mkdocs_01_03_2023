@@ -8,6 +8,5 @@ The first goal of website development projects is a Minimum Viable Product.
 
 - The next steps are adding the want features, until stakeholders agree the website is production quality and ready to be deployment.
 
-
 !!! Danger "Defects"
 	The slightest configuration, programming or security defect issues during the project will require Remediating and increasing overall lifetime costs 
