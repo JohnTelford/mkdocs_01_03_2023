@@ -92,7 +92,8 @@ The core technologies of Iterative Development are Git, GitHub, and the Central 
 	The Central Websit Repository is managed by a team member project gatekeeper with help from other team members
 
 
-  - Stake Holders Private Preview Website
+  - Stake Holders Private Preview Website  
+  
   	The same "MkDocs Static Site Generator" tools are used to create the "Production Website" by the "CDN - Deploy Website to Web"
 
 
