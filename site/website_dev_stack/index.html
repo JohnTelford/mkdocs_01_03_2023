@@ -68,7 +68,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#developers" class="md-skip">
+        <a href="#team-developers" class="md-skip">
           Skip to content
         </a>
       
@@ -348,6 +348,34 @@
     
   
   
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4_2" type="checkbox" id="__nav_2_4_2" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_4_2">
+          Development Stack
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Development Stack" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          Development Stack
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
     <li class="md-nav__item md-nav__item--active">
       
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
@@ -377,8 +405,22 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#developers" class="md-nav__link">
-    Developers
+  <a href="#team-developers" class="md-nav__link">
+    Team Developers
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#github" class="md-nav__link">
+    GitHub
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mkdocs-material-static-site-generator" class="md-nav__link">
+    MkDocs Material - Static Site Generator
   </a>
   
 </li>
@@ -387,6 +429,27 @@
   
 </nav>
       
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dev_stack_details/" class="md-nav__link">
+        Dev Stack Details
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
     </li>
   
 
@@ -700,8 +763,22 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#developers" class="md-nav__link">
-    Developers
+  <a href="#team-developers" class="md-nav__link">
+    Team Developers
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#github" class="md-nav__link">
+    GitHub
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mkdocs-material-static-site-generator" class="md-nav__link">
+    MkDocs Material - Static Site Generator
   </a>
   
 </li>
@@ -741,8 +818,6 @@
 
     github --- crepo
 
-    github --- cdn
-
     github --- net
 
     vsc --- lrepo
@@ -755,6 +830,8 @@
 
     vsc --- mkd
 
+    mkd --- lpreweb
+
     dev([Team Developers])
 
     cdn([CDN - Deploy Website to Web])
@@ -765,20 +842,19 @@
 
     lrepo([Local Website Repository])
 
+    lpreweb([Local Preview Website])
+
     mkd([Mkdocs Material - Static Site Generator])
 
     net([Internet]) 
 
     prevweb([Stake Holders Private Preview Website])
 
-    proweb([Production - Web Site])
+    proweb([Production Website])
 
     vsc([VScode - Command and Control]) 
 </code></pre>
 <b>Iterative Website Development Stack</b>
-<br/>
-
-Details follow
 </div>
 
 <p>The Iterative Development teams use the Iterative Website Development Stack technologies</p>
@@ -786,33 +862,41 @@ Details follow
 <li>The core technologies of Iterative WebsiteDevelopment are Git, the GitHub central project repository controlled by the project gatekeeper,  using Local Website Repository, the content delivery network, like Cloudflare, to deploying private <a href="../preview/">Preview</a> Internet websites, production websites, and .</li>
 </ul>
 <p>The core technologies of Iterative Development are Git, GitHub, and the Central Website Repository controlled by the project gatekeeper, and a Content Delivery Network (CDN), like Cloudflare, deploying Private Preview Internet websites, production websites, and individual team members Private Preview websites.</p>
-<h2 id="developers">Developers<a class="headerlink" href="#developers" title="Permanent link">&para;</a></h2>
+<h4 id="team-developers">Team Developers<a class="headerlink" href="#team-developers" title="Permanent link">&para;</a></h4>
 <ul>
 <li>
-<p>Local Repository <br />
+<p>Local Website Repository <br />
     Each team developer has their own Local Website Repository that can be updated from the Central Website Repository. Team members cannot update the Central Web Repository directly. They submit their changes. The approved changes by the project gatekeeper are added to the Central Website Repository. Team members can then update their Local Website Repository.</p>
 </li>
 <li>
 <p>VScode <br />
     Developers use <a href="../vscode/">VSCode</a> as their Web Development Stack Command and Control center. They use it to edit code using their Local Website Repository, commit changes to the Central Website Repository, refresh their Local Website Repository, and deploy Private Preview Internet websites for themselves and stake holders to view and give feedback</p>
 </li>
-<li>
-<p>MkDocs Material<br />
-    Is a Static Site Generator that uses the Local Website Repository to create a <a href="../preview/">Preview</a> website for themselves and stakeholders  </p>
-<p>It is also used by the Content Delivery network(CDN) do build and deploy the production website from the Central Repository</p>
-</li>
-<li>
-<p>GitHub</p>
+</ul>
+<h4 id="github">GitHub<a class="headerlink" href="#github" title="Permanent link">&para;</a></h4>
 <p>GitHub is a Distributed Version Control Systems enabling multiple teams to work separately on the same project without having an impact on the work of others. GitHub manages an online web hosted Central Website Repository containing all project files. It is a unified source of truth. It helps teams collaborate and maintain the entire history of project file changes, and helps answer the questions <strong>who changed what, where, when, and why</strong> for the lifetime of the project</p>
 <p>The Central Websit Repository is managed by a team member project gatekeeper with help from other team members</p>
+<h4 id="mkdocs-material-static-site-generator">MkDocs Material - Static Site Generator<a class="headerlink" href="#mkdocs-material-static-site-generator" title="Permanent link">&para;</a></h4>
+<p>Is a Static Site Generator used to build a website from Repository to create:</p>
+<ul>
+<li>
+<p>A Local <a href="../preview/">Preview</a> Website for the developer</p>
+</li>
+<li>
+<p>The Production Website deployed to the Internet</p>
 </li>
 <li>
 <p>Stake Holders Private Preview Website  </p>
-<p>The same "MkDocs Static Site Generator" tools are used to create the "Production Website" by the "CDN - Deploy Website to Web"</p>
 </li>
-<li>
-<p>GitHub  </p>
+</ul>
+<p>It is also used by the Content Delivery network(CDN) do build and deploy the production website from the Central Repository</p>
 <ul>
+<li>Content Delivery Network (CDN)</li>
+</ul>
+<p>A "MkDocs Static Site Generator" tools are used to create the "Production Website" by the "CDN - Deploy Website to Web"</p>
+<p>=====</p>
+<ul>
+<li>GitHub  <ul>
 <li>
 <p>Central Repository.  </p>
 <ul>
@@ -912,13 +996,13 @@ Details follow
       
       
         
-        <a href="../development_tools/" class="md-footer__link md-footer__link--next" aria-label="Next: Development Tools" rel="next">
+        <a href="../dev_stack_details/" class="md-footer__link md-footer__link--next" aria-label="Next: Dev Stack Details" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Development Tools
+              Dev Stack Details
             </div>
           </div>
           <div class="md-footer__button md-icon">

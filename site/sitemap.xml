@@ -31,6 +31,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://localhost:8000/dev_stack_details/</loc>
+         <lastmod>2022-12-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://localhost:8000/development_tools/</loc>
          <lastmod>2022-12-26</lastmod>
          <changefreq>daily</changefreq>

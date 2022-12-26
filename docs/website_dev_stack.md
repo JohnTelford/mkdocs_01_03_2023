@@ -55,7 +55,7 @@ flowchart TB
 	
 	prevweb([Stake Holders Private Preview Website])
 
-	proweb([Production - Website])
+	proweb([Production Website])
 
 	vsc([VScode - Command and Control]) 
 
@@ -78,22 +78,37 @@ The core technologies of Iterative Development are Git, GitHub, and the Central 
 
 - VScode   
 	Developers use [VSCode](vscode.md) as their Web Development Stack Command and Control center. They use it to edit code using their Local Website Repository, commit changes to the Central Website Repository, refresh their Local Website Repository, and deploy Private Preview Internet websites for themselves and stake holders to view and give feedback
-	
-- MkDocs Material  
-	Is a Static Site Generator that uses the Local Website Repository to create a [Preview](preview.md) website for themselves and stakeholders  
-	
-	It is also used by the Content Delivery network(CDN) do build and deploy the production website from the Central Repository
-
 #### GitHub
 
 GitHub is a Distributed Version Control Systems enabling multiple teams to work separately on the same project without having an impact on the work of others. GitHub manages an online web hosted Central Website Repository containing all project files. It is a unified source of truth. It helps teams collaborate and maintain the entire history of project file changes, and helps answer the questions **who changed what, where, when, and why** for the lifetime of the project
 
 The Central Websit Repository is managed by a team member project gatekeeper with help from other team members
 
+#### MkDocs Material - Static Site Generator
 
-#### Stake Holders Private Preview Website  
+Is a Static Site Generator used to build a website from Repository to create:
   
-The same "MkDocs Static Site Generator" tools are used to create the "Production Website" by the "CDN - Deploy Website to Web"
+  - A Local [Preview](preview.md) Website for the developer
+
+  - The Production Website deployed to the Internet
+
+
+  - Stake Holders Private Preview Website  
+
+It is also used by the Content Delivery network(CDN) do build and deploy the production website from the Central Repository
+
+
+
+- Content Delivery Network (CDN)
+
+
+
+  
+A "MkDocs Static Site Generator" tools are used to create the "Production Website" by the "CDN - Deploy Website to Web"
+
+
+
+
 
 =====
 
