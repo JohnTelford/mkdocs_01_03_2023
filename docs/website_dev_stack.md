@@ -23,8 +23,6 @@ flowchart TB
 
 	github --- crepo
 
-	github --- cdn
-
 	github --- net
 	
 	vsc --- lrepo
@@ -37,6 +35,8 @@ flowchart TB
 
 	vsc --- mkd
 
+	mkd --- lpreweb
+
 	dev([Team Developers])
 
 	cdn([CDN - Deploy Website to Web])
@@ -47,21 +47,20 @@ flowchart TB
 
 	lrepo([Local Website Repository])
 
+	lpreweb([Local Preview Website])
+
 	mkd([Mkdocs Material - Static Site Generator])
 
 	net([Internet]) 
 	
 	prevweb([Stake Holders Private Preview Website])
 
-	proweb([Production - Web Site])
+	proweb([Production - Website])
 
 	vsc([VScode - Command and Control]) 
 
 ```
 <b>Iterative Website Development Stack</b>
-<br/>
-
-Details follow
 </div>
 
 
@@ -72,9 +71,9 @@ The Iterative Development teams use the Iterative Website Development Stack tech
 The core technologies of Iterative Development are Git, GitHub, and the Central Website Repository controlled by the project gatekeeper, and a Content Delivery Network (CDN), like Cloudflare, deploying Private Preview Internet websites, production websites, and individual team members Private Preview websites.
 
 
-## Developers 
+#### Team Developers 
 
-- Local Repository   
+- Local Website Repository   
 	Each team developer has their own Local Website Repository that can be updated from the Central Website Repository. Team members cannot update the Central Web Repository directly. They submit their changes. The approved changes by the project gatekeeper are added to the Central Website Repository. Team members can then update their Local Website Repository.
 
 - VScode   
@@ -85,17 +84,18 @@ The core technologies of Iterative Development are Git, GitHub, and the Central 
 	
 	It is also used by the Content Delivery network(CDN) do build and deploy the production website from the Central Repository
 
--  GitHub
+#### GitHub
 
-	GitHub is a Distributed Version Control Systems enabling multiple teams to work separately on the same project without having an impact on the work of others. GitHub manages an online web hosted Central Website Repository containing all project files. It is a unified source of truth. It helps teams collaborate and maintain the entire history of project file changes, and helps answer the questions **who changed what, where, when, and why** for the lifetime of the project
+GitHub is a Distributed Version Control Systems enabling multiple teams to work separately on the same project without having an impact on the work of others. GitHub manages an online web hosted Central Website Repository containing all project files. It is a unified source of truth. It helps teams collaborate and maintain the entire history of project file changes, and helps answer the questions **who changed what, where, when, and why** for the lifetime of the project
 
-	The Central Websit Repository is managed by a team member project gatekeeper with help from other team members
+The Central Websit Repository is managed by a team member project gatekeeper with help from other team members
 
 
-  - Stake Holders Private Preview Website  
+#### Stake Holders Private Preview Website  
   
-  	The same "MkDocs Static Site Generator" tools are used to create the "Production Website" by the "CDN - Deploy Website to Web"
+The same "MkDocs Static Site Generator" tools are used to create the "Production Website" by the "CDN - Deploy Website to Web"
 
+=====
 
 - GitHub  
     - Central Repository.  

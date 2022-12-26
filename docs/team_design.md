@@ -12,7 +12,7 @@ The core foundations of a user's website experience are:
 
 - Engaging - Keeps user coming back to a website
 
-### Design - Prerequisites
+#### Design - Prerequisites
 
 - Decisions about Website Design
 
