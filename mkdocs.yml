@@ -37,7 +37,9 @@ nav:
     - Design Team: team_design.md
     - Development Team:
       - Website Development: team_develop.md
-      - Website Development Stack: website_dev_stack.md
+      - Development Stack:
+        - Development Stack Overview: website_dev_stack.md
+        - Dev Stack Details: dev_stack_details.md
       - Development Tools: development_tools.md
       - Programming: programming.md
       - Workstations: workstations.md
