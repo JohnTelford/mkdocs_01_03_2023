@@ -2,7 +2,7 @@
 title: Iterative Website Development
 ---
 
----
+Updated: Dec 26, 2022
 
 !!! abstract "Purpose"
     The purpose of Iterative Website Development is to minimize website projects life time costs
