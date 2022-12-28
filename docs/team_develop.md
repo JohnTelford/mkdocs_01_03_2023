@@ -8,8 +8,6 @@ title: Team - Develop
 
 - Configures and uses website development tools
 
-- The slightest errors or security issues during development will require [[Defect Remediation Costs​|remediating]] sometime during the life time of the website.
-
 #### Develop - Prerequisites
 - Decisions about resources required to transform the Define and Design work into a website and infrastructure
 

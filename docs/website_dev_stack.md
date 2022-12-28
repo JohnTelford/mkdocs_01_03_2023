@@ -66,9 +66,9 @@ flowchart TB
 
 The Iterative Development teams use the Iterative Website Development Stack technologies
 
-- The core technologies of Iterative WebsiteDevelopment are Git, the GitHub central project repository controlled by the project gatekeeper,  using Local Website Repository, the content delivery network, like Cloudflare, to deploying private [Preview](preview.md) Internet websites, production websites, and .
+- The core technologies of Iterative WebsiteDevelopment are [Git](), the GitHu[GitHub](dev_stack_details#github-details) central project repository controlled by the project gatekeeper,  using Local Website Repository, the content delivery network, like Cloudflare, to deploying private [Preview](preview.md) Internet websites, production websites, and .
 
-The core technologies of Iterative Development are Git, GitHub, and the Central Website Repository controlled by the project gatekeeper, and a Content Delivery Network (CDN), like Cloudflare, deploying Private Preview Internet websites, production websites, and individual team members Private Preview websites.
+The core technologies of Iterative Development are [Git](dev_stack_details#git), GitHub, and the Central Website Repository controlled by the project gatekeeper, and a Content Delivery Network (CDN), like Cloudflare, deploying Private Preview Internet websites, production websites, and individual team members Private Preview websites.
 
 
 #### Team Developers 
@@ -78,11 +78,14 @@ The core technologies of Iterative Development are Git, GitHub, and the Central 
 
 - VScode   
 	Developers use [VSCode](vscode.md) as their Web Development Stack Command and Control center. They use it to edit code using their Local Website Repository, commit changes to the Central Website Repository, refresh their Local Website Repository, and deploy Private Preview Internet websites for themselves and stake holders to view and give feedback
+
 #### GitHub
 
 GitHub is a Distributed Version Control Systems enabling multiple teams to work separately on the same project without having an impact on the work of others. GitHub manages an online web hosted Central Website Repository containing all project files. It is a unified source of truth. It helps teams collaborate and maintain the entire history of project file changes, and helps answer the questions **who changed what, where, when, and why** for the lifetime of the project
 
-The Central Websit Repository is managed by a team member project gatekeeper with help from other team members
+The Central Website Repository is managed by a team member project gatekeeper with help from other team members
+
+- Reference [GitHub Details](dev_stack_details#github_details)
 
 #### MkDocs Material - Static Site Generator
 
@@ -112,7 +115,7 @@ A "MkDocs Static Site Generator" tools are used to create the "Production Websit
 
 =====
 
-- GitHub  
+- GitHubQ  
     - Central Repository.  
 	
     	- The core technologies of Iterative Development are Git, GitHub, and the Central Website Repository controlled by the project gatekeeper, and a content delivery network, like Cloudflare, deploying private Preview Internet websites, production websites, and individual team members private Preview websites.
