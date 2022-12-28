@@ -46,3 +46,5 @@ A summary of GitHub workflow for each team member is:
 ---
 
 ### VScode
+
+[Introduction Videos](https://code.visualstudio.com/docs/getstarted/introvideos)
