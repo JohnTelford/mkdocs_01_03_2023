@@ -47,10 +47,6 @@ nav:
     - Maintenance Team: team_maintenance.md
 
 
-  - Company:
-    - Information: company.md
-    - Contact: contact.md
-
   - Technology:
     - Version Control System:
       - What is Git and GitHub: https://www.w3schools.com/git/default.asp
@@ -60,8 +56,11 @@ nav:
       - MkDocs: https://www.mkdocs.org
       - Materials for MkDocs: https://squidfunk.github.io/mkdocs-material/
 
-  
-  - Site Notes:
+  - Company:
+    - Information: company.md
+    - Contact: contact.md
+
+  - Site Notes: 
     - Remediation: remediation.md
     - Glossary: glossary.md
 
