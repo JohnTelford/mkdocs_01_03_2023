@@ -15,13 +15,13 @@ title: Dev Stack Details
 
 A summary of GitHub workflow for each team member is:
 
-  1. Fork the central project repository creating a local project repository in individual team members GitHub account
-  2. Clone the forked local project repository in team member GitHub account to workstation
+  1. [Fork](https://www.w3schools.com/git/git_remote_fork.asp?remote=github) the central project repository creating a local project repository in individual team members GitHub account
+  2. [Clone](https://www.w3schools.com/git/git_clone.asp?remote=github) the forked local project repository in team member GitHub account to workstation
   3. Creates a topic Branch off the cloned local project repository *main* branch
   4. Make topic edits and commits 
-  5. Push after each commit to the cloned local project repository in GitHub account
-  6. Periodically Pull from the central project repository. The *develop* branch will have merged accepted Pull Requests
-  7. Periodically deploy local project repository to a private [Preview ](deploy#preview) website without disturbing other developers work or the production version, for stake holders viewing and feedback. This reduces the Pull Request evaluation time because stake holders interested in topics can see how they are progressing and working with the website.
+  5. [Push](https://www.w3schools.com/git/git_push_to_remote.asp?remote=github) after each commit to the cloned local project repository in GitHub account
+  6. Periodically [Pull](https://www.w3schools.com/git/git_push_to_remote.asp?remote=github) from the central project repository. The *develop* branch will have merged accepted Pull Requests
+  7. Periodically deploy local project repository to a private [Preview ](preview.md) website without disturbing other developers work or the production version, for stake holders viewing and feedback. This reduces the Pull Request evaluation time because stake holders interested in topics can see how they are progressing and working with the website.
   8. Open a Pull Request on the GitHub local project repository to begin the  process of integrating the local project repository with the central project repository  
   9. Team members discuss, and optionally continue committing on Pull Requests.
 
@@ -29,7 +29,8 @@ A summary of GitHub workflow for each team member is:
 
 ### Git Details
 
-### The Project Gatekeeper 
+- Git is not the same as GitHub.
+- GitHub makes tools that use Git.### The Project Gatekeeper 
 	
 - Merges or closes Pull Requests to the central project repository, and deploys the central project repository to a private [Preview ](deploy#preview) website for stack holders viewing. The teams and gatekeeper continues the GitHub workflow process until stack holders agree the central project repository is ready for release to the public internet 
 
