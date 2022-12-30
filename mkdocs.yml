@@ -47,18 +47,17 @@ nav:
     - Maintenance Team: team_maintenance.md
 
 
-  - Technology:
-    - Version Control System:
-      - What is Git and GitHub: https://www.w3schools.com/git/default.asp
-      - GitHub: https://github.com/
-      - Git: https://git-scm.com/
-    - Website Development:
-      - MkDocs: https://www.mkdocs.org
-      - Materials for MkDocs: https://squidfunk.github.io/mkdocs-material/
+  - Technology: 
+    - Technology Guide: technology_guide.md
 
-  - Company:
-    - Information: company.md
-    - Contact: contact.md
+    - Version Control System: technology_guide/#version-control-system
+    - Git GitHub Getting Started: technology_guide/#git-github-getting-started
+    - GitHub: technology_guide/#github/
+    - Git: technology_guide/#git/
+
+    - Website Development:
+      - MkDocs: technology_guide/#mkdocs
+      - Materials for MkDocs: technology_guide/#materials-for-mkdocs
 
   - Site Notes: 
     - Remediation: remediation.md
