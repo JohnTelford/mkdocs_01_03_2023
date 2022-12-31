@@ -52,7 +52,7 @@ Teams may [Pull](#pull) the central project repository at anytime to view and te
 
 ### Git
 
-[Git](https://git-scm.com/)
+Reference: [Git](https://git-scm.com/)
 
 Git is a [free and open source](https://git-scm.com/about/free-and-open-source) distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 
