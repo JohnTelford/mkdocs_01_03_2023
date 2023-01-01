@@ -551,13 +551,6 @@
     GitHub
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#github_1" class="md-nav__link">
-    GitHub
-  </a>
-  
     <nav class="md-nav" aria-label="GitHub">
       <ul class="md-nav__list">
         
@@ -584,6 +577,13 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#branch" class="md-nav__link">
+    Branch
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#fork" class="md-nav__link">
     Fork
   </a>
@@ -593,13 +593,6 @@
           <li class="md-nav__item">
   <a href="#clone" class="md-nav__link">
     Clone
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#branch" class="md-nav__link">
-    Branch
   </a>
   
 </li>
@@ -642,13 +635,6 @@
           <li class="md-nav__item">
   <a href="#pull" class="md-nav__link">
     Pull
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#pull-request" class="md-nav__link">
-    Pull Request
   </a>
   
 </li>
@@ -996,13 +982,6 @@
     GitHub
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#github_1" class="md-nav__link">
-    GitHub
-  </a>
-  
     <nav class="md-nav" aria-label="GitHub">
       <ul class="md-nav__list">
         
@@ -1029,6 +1008,13 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#branch" class="md-nav__link">
+    Branch
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#fork" class="md-nav__link">
     Fork
   </a>
@@ -1038,13 +1024,6 @@
           <li class="md-nav__item">
   <a href="#clone" class="md-nav__link">
     Clone
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#branch" class="md-nav__link">
-    Branch
   </a>
   
 </li>
@@ -1087,13 +1066,6 @@
           <li class="md-nav__item">
   <a href="#pull" class="md-nav__link">
     Pull
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#pull-request" class="md-nav__link">
-    Pull Request
   </a>
   
 </li>
@@ -1173,7 +1145,13 @@
 
   <h1>Technology Guide</h1>
 
+<blockquote>
 <p>A guid to Version Control System technology</p>
+</blockquote>
+<p>The core technologies of Iterative Development are Git, GitHub central project repository controlled by the project gatekeeper, and a content delivery network, like <a href="#deploy/cloudflare">Cloudflare</a>, deploying private <a href="deploy#preview">Preview</a> Internet websites, production websites, and individual team members private <a href="deploy#preview">Preview</a> websites.</p>
+<blockquote>
+<p>Team members use the <a href="website-development-stack">Website Development Stack</a> to develop and deploy websites to the Internet.</p>
+</blockquote>
 <h2 id="github">GitHub<a class="headerlink" href="#github" title="Permanent link">&para;</a></h2>
 <p>The first thing to do is create a GitHub Account</p>
 <p>Go to <a href="https://www.github.com/">GitHub</a> and sign up for an account</p>
@@ -1181,37 +1159,59 @@
 <p class="admonition-title">Note</p>
 <p>Remember to use the same e-mail address you used in the Git config</p>
 </div>
-<h2 id="github_1">GitHub<a class="headerlink" href="#github_1" title="Permanent link">&para;</a></h2>
-<p>The core technologies of Iterative Development are Git, GitHub central project repository controlled by the project gatekeeper, and a content delivery network, like <a href="#deploy/cloudflare">Cloudflare</a>, deploying private <a href="deploy#preview">Preview</a> Internet websites, production websites, and individual team members private <a href="deploy#preview">Preview</a> websites.</p>
 <p>GitHub is a Distributed Version Control Systems enabling multiple teams to work separately on the same project without having an impact on the work of others. GitHub manages an online web hosted central project repository containing all project files. It is a unified source of truth. It helps teams collaborate and maintain the entire history of project file changes.</p>
-<blockquote>
-<p>It helps answer the questions for the lifetime of the project <em>who changed what, where, when, and why?</em> </p>
-</blockquote>
-<p>Team members use the <a href="website-development-stack">Website Development Stack</a> to develop and deploy websites to the Internet.</p>
+<p>GitHub helps answer the questions for the lifetime of the project <strong>who changed what, where, when, and why?</strong> </p>
 <h3 id="the-github-workflow">The GitHub Workflow<a class="headerlink" href="#the-github-workflow" title="Permanent link">&para;</a></h3>
 <p>GitHub workflow is centered on <a href="#pull-request">Pull Requests</a>. The GitHub workflow works with collaborating tightly-knit team members contributing to the central project repository using the <a href="#fork">Forks</a>. It is centered on the topic <a href="#branch">Branches</a> workflow.</p>
-<p>A summary of GitHub workflow for each team member is:</p>
+<p>A summary of GitHub workflow for team members is:</p>
 <ol>
-<li><a href="#fork">Fork</a> the central project repository creating a local project repository in individual team members GitHub account</li>
-<li><a href="#clone">Clone</a> the forked local project repository in team member GitHub account to workstation</li>
-<li>Creates a topic <a href="#branch">branch</a> off the cloned local project repository <em>develop</em> branch</li>
-<li>Make topic edits and commits </li>
-<li>Push after each commit to the cloned local project repository in GitHub account</li>
-<li>Periodicity <a href="#pull">Pull</a> from the central project repository. The <em>develop</em> branch will have merged accepted <a href="#pull-request">Pull Request</a></li>
-<li>Deploy local project repository to a private <a href="deploy#preview">Preview</a> website periodically for stake holders viewing. This reduces the <a href="#pull-request">Pull Request</a> evaluation time because stake holders interested in topics can see how they are progressing and working with the website.</li>
-<li>Open a <a href="#pull-request">Pull Request</a> on the GitHub local project repository to begin the  process of integrating the local project repository with the central project repository  </li>
-<li>Team members discuss, and optionally continue committing on <a href="#pull-request">Pull Requests</a>.</li>
+<li>
+<p><a href="#fork">Fork</a> the central project repository creating a local project repository in individual team members GitHub account</p>
+</li>
+<li>
+<p><a href="#clone">Clone</a> the forked local project repository in team member GitHub account to workstation</p>
+</li>
+<li>
+<p>Creates a topic <a href="#branch">branch</a> off the cloned local project repository <em>develop</em> branch</p>
+</li>
+<li>
+<p>Make topic edits and commits </p>
+</li>
+<li>
+<p>Push after each commit to the cloned local project repository in GitHub account</p>
+</li>
+<li>
+<p>Periodicity <a href="#pull">Pull</a> from the central project repository. The <em>develop</em> branch will have merged accepted <a href="#pull-request">Pull Request</a></p>
+</li>
+<li>
+<p>Deploy local project repository to a private <a href="deploy#preview">Preview</a> website periodically for stake holders viewing. This reduces the <a href="#pull-request">Pull Request</a> evaluation time because stake holders interested in topics can see how they are progressing and working with the website.</p>
+</li>
+<li>
+<p>Open a <a href="#pull-request">Pull Request</a> on the GitHub local project repository to begin the  process of integrating the local project repository with the central project repository  </p>
+</li>
+<li>
+<p>Team members discuss, and optionally continue committing on <a href="#pull-request">Pull Requests</a>.</p>
+</li>
 </ol>
-<p>The project gatekeeper merges or closes Pull Requests to the central project repository, and deploys the central project repository to a private <a href="deploy#preview">Preview</a> website website for stack holders viewing. The teams and gatekeeper continues the GitHub workflow process until stack holders agree the central project repository is ready for release to the public internet </p>
+<p>The project gatekeeper merges or closes Pull Requests to the central project repository, and deploys the central project repository to a private <a href="deploy#preview">Preview</a> website for stockholders viewing. The teams and gatekeeper continues the GitHub workflow process until stack holders agree the central project repository is ready for release to the public internet </p>
 <p>Teams may <a href="#pull">Pull</a> the central project repository at anytime to view and test other topic branches.</p>
 <h3 id="git">Git<a class="headerlink" href="#git" title="Permanent link">&para;</a></h3>
-<p><a href="https://git-scm.com/">Git</a></p>
+<p>Reference: <a href="https://git-scm.com/">Git</a></p>
 <p>Git is a <a href="https://git-scm.com/about/free-and-open-source">free and open source</a> distributed version control system designed to handle everything from small to very large projects with speed and efficiency.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>The <a href="#vscode">VScode</a> development environment has several of these and other Git command built-in </p>
+</div>
 <h3 id="basic-git-commands">Basic Git Commands<a class="headerlink" href="#basic-git-commands" title="Permanent link">&para;</a></h3>
 <p><a href="https://www.w3schools.com/git/default.asp?remote=github">Git Tutorial</a></p>
+<h4 id="branch">Branch<a class="headerlink" href="#branch" title="Permanent link">&para;</a></h4>
+<p><a href="https://www.w3schools.com/git/git_branch.asp?remote=github">Git</a></p>
+<p>Creating a branch is to safely diverge from a line of development and continuing on another. An example is creating a branch create a feature or to test a radical idea</p>
+<p>Branching enables working on different parts of a project without impacting other branches. Work on a branch can be merged with other project branches. </p>
+<p>Switching between branches and work on different projects without them interfering with each other. Branching in Git is lightweight and fast!</p>
 <h4 id="fork">Fork<a class="headerlink" href="#fork" title="Permanent link">&para;</a></h4>
 <p><a href="https://www.w3schools.com/git/git_remote_fork.asp?remote=github">Git GitHub Fork</a></p>
-<p>A <code>fork</code> is a copy of the project repository in a team member's GitHub account. Forks let team members make changes to a project without affecting the original repository or other team members. Team members can fetch updates from the project repository with a <a href="#pull">pull</a> command</p>
+<p>A <code>fork</code> is GitHub command to copy a project repository in a GitHub account. Forks let team members make changes to a project without affecting the original repository or other team members. Team members can fetch updates from the project repository with a <a href="#pull">pull</a> command</p>
 <p>Forks are used to either propose changes to someone else's project to which you do not have write access, or to use someone else's project as a starting point for your own idea. You can fork a repository to create a copy of the repository and make changes without affecting the upstream repository</p>
 <p>Forking a repository is similar to copying a repository, with two major differences:</p>
 <ul>
@@ -1227,11 +1227,6 @@
 <p><a href="https://www.w3schools.com/git/git_clone.asp?remote=github">Git Clone from GitHub</a></p>
 <p>A clone is a full copy of a repository, including all logging and versions of files, copied from the team member GitHub account to team member workstation.</p>
 <p><a href="#commits">Commits</a> keep the team member local project repository up to date on the workstation and on GitHub. If the workstation copy is damaged, the latest commit can be cloned from GitHubto the workstation.</p>
-<h4 id="branch">Branch<a class="headerlink" href="#branch" title="Permanent link">&para;</a></h4>
-<p><a href="https://www.w3schools.com/git/git_branch.asp?remote=github">Git Branch</a></p>
-<p>Creating a branch is to safely diverge from a line of development and continuing on another. An example is creating a branch create a feature or to test a radical idea</p>
-<p>Branching enables working on different parts of a project without impacting other branches. Work on a branch can be merged with other project branches. </p>
-<p>Switching between branches and work on different projects without them interfering with each other. Branching in Git is lightweight and fast!</p>
 <h4 id="checkout">Checkout<a class="headerlink" href="#checkout" title="Permanent link">&para;</a></h4>
 <h4 id="switch">Switch<a class="headerlink" href="#switch" title="Permanent link">&para;</a></h4>
 <p>A quick way of switching branch on Git is to use the <code>git switch</code> command and specify the name of the branch you want to switch to.</p>
@@ -1260,13 +1255,8 @@ Congratulations, you have now successfully switched to another branch and you ca
 <h4 id="push">Push<a class="headerlink" href="#push" title="Permanent link">&para;</a></h4>
 <p>Git Push to <a href="https://www.w3schools.com/git/git_push_to_remote.asp?remote=github">GitHub</a></p>
 <h4 id="pull">Pull<a class="headerlink" href="#pull" title="Permanent link">&para;</a></h4>
-<h4 id="pull-request">Pull Request<a class="headerlink" href="#pull-request" title="Permanent link">&para;</a></h4>
-<p>Pull requests let teams tell others about changes that have been pushed to a branch in their GitHub account forked project repository. Once a pull request is opened by the project team gatekeeper, teams can discuss and review the potential changes with collaborators and add follow-up commits before changes are merged into the website central project repository.</p>
+<p><code>Pull</code> requests let teams tell others about changes that have been pushed to a branch in their GitHub account forked project repository. Once a <code>pull</code> request is opened by the project team gatekeeper, teams can discuss and review the potential changes with collaborators and add follow-up commits before changes are merged into the website central project repository.</p>
 <p><a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests">About pull requests</a></p>
-<div class="admonition tip">
-<p class="admonition-title">Tip</p>
-</div>
-<p>The <a href="#vscode">VScode</a> development environment has several of these and other Git command built-in </p>
 <h4 id="restore">Restore<a class="headerlink" href="#restore" title="Permanent link">&para;</a></h4>
 <p>restores a previous version of a file while staying on the same branch</p>
 <h2 id="git-utilities">Git Utilities<a class="headerlink" href="#git-utilities" title="Permanent link">&para;</a></h2>
