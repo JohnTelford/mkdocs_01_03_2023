@@ -50,10 +50,19 @@ nav:
   - Technology: 
     - Technology Guide: technology_guide.md
 
-    - Version Control System: technology_guide/#version-control-system
-    - Git GitHub Getting Started: technology_guide/#git-github-getting-started
-    - GitHub: technology_guide/#github/
-    - Git: technology_guide/#git/
+    # - Version Control System: technology_guide/#version-control-system
+    # - Git GitHub Getting Started: technology_guide/#git-github-getting-started
+    # - GitHub: technology_guide/#github/
+    # - Git: technology_guide/#git/
+
+    - Command and Control:
+      - VScode: vscode.md
+
+    - Version Control System:
+      - Overview: technology_guide.md
+      - GitHub: github.md
+      - Git: git.md
+
 
     - Website Development:
       - MkDocs: technology_guide/#mkdocs
