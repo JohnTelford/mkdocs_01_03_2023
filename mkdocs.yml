@@ -31,50 +31,50 @@ nav:
   - Home:
     - Iterative website development: index.md
 
-  - Teams:
-    - Teams Overview: team_overview.md
-    - Define Team: team_define.md
-    - Design Team: team_design.md
-    - Development Team:
-      - Website Development: team_develop.md
-      - Development Stack:
-        - Dev Stack Overview: website_dev_stack.md
-        - Dev Stack Details: dev_stack_details.md
-      - Development Tools: development_tools.md
-      - Programming: programming.md
-      - Workstations: workstations.md
-    - Deploy Team: team_deploy.md
-    - Maintenance Team: team_maintenance.md
+  # - Teams:
+  #   - Teams Overview: team_overview.md
+  #   - Define Team: team_define.md
+  #   - Design Team: team_design.md
+  #   - Development Team:
+  #     - Website Development: team_develop.md
+  #     - Development Stack:
+  #       - Dev Stack Overview: website_dev_stack.md
+  #       - Dev Stack Details: dev_stack_details.md
+  #     - Development Tools: development_tools.md
+  #     - Programming: programming.md
+  #     - Workstations: workstations.md
+  #   - Deploy Team: team_deploy.md
+  #   - Maintenance Team: team_maintenance.md
 
 
-  - Technology: 
-    - Technology Guide: technology_guide.md
+  # - Technology: 
+  #   - Technology Guide: technology_guide.md
 
-    # - Version Control System: technology_guide/#version-control-system
-    # - Git GitHub Getting Started: technology_guide/#git-github-getting-started
-    # - GitHub: technology_guide/#github/
-    # - Git: technology_guide/#git/
+  #   # - Version Control System: technology_guide/#version-control-system
+  #   # - Git GitHub Getting Started: technology_guide/#git-github-getting-started
+  #   # - GitHub: technology_guide/#github/
+  #   # - Git: technology_guide/#git/
 
-    - Command and Control:
-      - VScode: vscode.md
+  #   - Command and Control:
+  #     - VScode: vscode.md
 
-    - Version Control System:
-      - Overview: technology_guide.md
-      - GitHub: github.md
-      - Git: git.md
+  #   - Version Control System:
+  #     - Overview: technology_guide.md
+  #     - GitHub: github.md
+  #     - Git: git.md
 
 
-    - Website Development:
-      - MkDocs: technology_guide/#mkdocs
-      - Materials for MkDocs: technology_guide/#materials-for-mkdocs
+  #   - Website Development:
+  #     - MkDocs: technology_guide/#mkdocs
+  #     - Materials for MkDocs: technology_guide/#materials-for-mkdocs
 
-  - Site Notes: 
-    - Remediation: remediation.md
-    - Glossary: glossary.md
+  # - Site Notes: 
+  #   - Remediation: remediation.md
+  #   - Glossary: glossary.md
 
-  - Hype:
-    - Hype Curve: hype_curve.md
-    - Hype Guesstimates: hype_guesstimates.md
+  # - Hype:
+  #   - Hype Curve: hype_curve.md
+  #   - Hype Guesstimates: hype_guesstimates.md
 
 #       - Development Tools:
 #         # - developmenttools.md
