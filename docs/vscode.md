@@ -12,6 +12,8 @@ title: Visual Studio Code
 !!!info
 [Visual Studio Code](https://code.visualstudio.com) (VScode) is a Microsoft product.
 
+
+
 It has become the goto editor for many. It is free, built on open source, and runs everywhere.
 
 [Introduction Videos](https://code.visualstudio.com/docs/getstarted/introvideos)

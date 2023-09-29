@@ -1,4 +1,4 @@
-site_name: John Telford
+site_name: John Telford - mkdocs_01_03_2023
 
 theme:
 
@@ -6,7 +6,7 @@ theme:
 
   features:
     - navigation.instant
-    - navigation.tabs
+    - navigation.tab
     - navigation.tabs.sticky
     - navigation.expand
     - navigation.tracking
@@ -18,12 +18,12 @@ theme:
     primary: teal
     accent: indigo
  
-  features:
-    - navigation.tracking
-    - navigation.instant
-    # - navigation.indexes
-    - toc.follow
-    # - navigation.tabs
+  # features:
+  #   - navigation.tracking
+  #   - navigation.instant
+  #   # - navigation.indexes
+  #   - toc.follow
+  #   # - navigation.tabs
 
 # nav tree
 nav:
@@ -88,9 +88,7 @@ nav:
 
 markdown_extensions:
   - admonition
-  
   - pymdownx.details
-  
   - pymdownx.extra
   - attr_list
   - md_in_html
@@ -104,8 +102,10 @@ markdown_extensions:
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
 
+
+dev_addr: localhost:8001
+
 copyright: Copyright &copy; 2022 John Telford
 
 
-site_url: https://localhost:8000
-
+site_url: https://localhost:8001
